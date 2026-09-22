@@ -104,22 +104,18 @@ MVP_Engenharia_de_Dados_PUCRio/
 
 ## Organização dos Notebooks
 
-O desenvolvimento foi dividido em cinco notebooks:
+O desenvolvimento foi dividido em cinco notebooks, organizados conforme as etapas do pipeline:
 
 ### [01 - Contexto e Objetivos](notebooks/01_contexto_objetivos.ipynb)
-
 Apresentação do problema, fonte dos dados, questões de análise e contexto do projeto.
 
 ### [02 - Bronze e Ingestão](notebooks/02_bronze_ingestao.ipynb)
-
 Ingestão do conjunto de dados, verificações iniciais e persistência da camada Bronze.
 
 ### [03 - Silver e Transformação](notebooks/03_silver_transformacao.ipynb)
-
 Tratamento, padronização, validação e persistência dos dados na camada Silver.
 
 ### [04 - Modelagem Gold](notebooks/04_modelagem_gold.ipynb)
-
 Criação dos atributos derivados, estruturação da camada Gold, catálogo de dados e documentação da linhagem das tabelas.
 
 ### [05 - Análise dos Resultados](notebooks/05_analise_resultados.ipynb)
