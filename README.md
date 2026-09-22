@@ -1,5 +1,7 @@
 # MVP de Engenharia de Dados
 
+# Daniel Lima
+
 ## Pipeline de Dados para Análise de Aprovação de Empréstimos
 
 Este projeto foi desenvolvido como MVP da disciplina de Engenharia de Dados da Pós-Graduação em Ciência de Dados e Analytics da PUC-Rio.
@@ -85,19 +87,20 @@ MVP_Engenharia_de_Dados_PUCRio/
 │   └── 05_analise_resultados.ipynb
 │
 ├── evidencias/
-│   ├── Imagem_01_evidencia_persistencia_tabela_bronze.png
-│   ├── Imagem_02_fonte_licenca_dataset_kaggle.png
-│   ├── Imagem_03_completude_dados_bronze.png
-│   ├── Imagem_04_evidencia_persistencia_tabela_silver.png
-│   ├── Imagem_05_evidencia_persistencia_tabela_gold.png
-│   ├── Imagem_06_catalogo_tabelas_pipeline.png
-│   ├── Imagem_07_catalogo_estrutura_gold.png
-│   ├── Imagem_08_taxa_aprovacao_por_faixa_renda.png
-│   ├── Imagem_09_aprovacao_por_historico_credito.png
-│   ├── Imagem_10_taxa_aprovacao_por_valor_solicitado.png
-│   ├── Imagem_11_taxa_aprovacao_por_comprometimento_renda.png
-│   ├── Imagem_12_relacao_renda_valor_solicitado.png
-│   └── Imagem_13_forca_associacao_aprovacao.png
+│   ├── imagem_01_evidencia_persistencia_tabela_bronze.png
+│   ├── imagem_02_fonte_licenca_dataset_kaggle.png
+│   ├── imagem_03_completude_dados_bronze.png
+│   ├── imagem_04_evidencia_persistencia_tabela_silver.png
+│   ├── imagem_05_evidencia_persistencia_tabela_gold.png
+│   ├── imagem_06_catalogo_tabelas_pipeline.png
+│   ├── imagem_07_linhagem_pipeline_bronze_silver_gold.png
+│   ├── imagem_08_catalogo_estrutura_gold.png
+│   ├── imagem_09_taxa_aprovacao_por_faixa_renda.png
+│   ├── imagem_10_aprovacao_por_historico_credito.png
+│   ├── imagem_11_taxa_aprovacao_por_valor_solicitado.png
+│   ├── imagem_12_taxa_aprovacao_por_comprometimento_renda.png
+│   ├── imagem_13_relacao_renda_valor_solicitado.png
+│   └── imagem_14_forca_associacao_aprovacao.png
 │
 └── README.md
 ```
