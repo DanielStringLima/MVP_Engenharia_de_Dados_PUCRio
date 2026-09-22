@@ -141,15 +141,11 @@ A análise foi orientada pelas seguintes perguntas de negócio:
 
 Foi utilizado o **Loan Approval Prediction Dataset**, disponibilizado publicamente na plataforma Kaggle. A fonte e a licença do conjunto de dados estão documentadas no primeiro notebook e nas evidências do projeto.
 
-📓 [Detalhamento no Notebook 01](./notebooks/01_contexto_objetivos.ipynb)
-
 ---
 
 ## Carga dos Dados
 
 A carga dos dados foi realizada no ambiente Databricks. Os dados brutos foram ingeridos e persistidos na camada Bronze, preservando a estrutura original da fonte.
-
-📓 [Detalhamento no Notebook 02](./notebooks/02_bronze_ingestao.ipynb)
 
 ---
 
@@ -166,8 +162,6 @@ As tabelas foram persistidas no Databricks e disponibilizadas no catálogo:
 - `loan_approval_gold`
 
 O catálogo de dados, o dicionário dos campos e a linhagem das tabelas são apresentados no notebook de modelagem.
-
-📓 [Detalhamento no Notebook 04](./notebooks/04_modelagem_gold.ipynb)
 
 ---
 
@@ -187,8 +181,6 @@ Os notebooks disponibilizados neste repositório permitem acompanhar todas as et
 
 Foram realizadas verificações de qualidade relacionadas à completude, consistência, unicidade, acurácia e presença de outliers. Os tratamentos e validações realizados estão documentados no notebook da camada Silver.
 
-📓 [Detalhamento no Notebook 03](./notebooks/03_silver_transformacao.ipynb)
-
 ---
 
 ## Análise de Dados
@@ -202,7 +194,6 @@ Entre os principais resultados observados:
 - a relação entre renda e valor solicitado apresentou associação positiva, sendo mais forte entre as solicitações aprovadas (**0,6135**) do que entre as reprovadas (**0,4803**);
 - renda e valor solicitado, quando avaliados individualmente em relação à aprovação, apresentaram associações baixas.
 
-📓 [Detalhamento no Notebook 05](./notebooks/05_analise_resultados.ipynb)
 
 ---
 
@@ -211,8 +202,6 @@ Entre os principais resultados observados:
 O projeto permitiu desenvolver um pipeline completo utilizando arquitetura Medalhão no Databricks, contemplando ingestão, persistência, qualidade, transformação, modelagem, catálogo, linhagem e análise dos dados.
 
 As principais limitações estão relacionadas ao tamanho e à quantidade de informações disponíveis no conjunto de dados. Como trabalhos futuros, o pipeline pode ser ampliado com novas fontes de dados, automação das etapas, monitoramento de qualidade e inclusão de informações adicionais relacionadas ao risco de crédito.
-
-📓 [Considerações finais no Notebook 05](./notebooks/05_analise_resultados.ipynb)
 
 ---
 
