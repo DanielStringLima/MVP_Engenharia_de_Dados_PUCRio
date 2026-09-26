@@ -4,9 +4,9 @@
 
 ## Pipeline de Dados para Análise de Aprovação de Empréstimos
 
-Este projeto foi desenvolvido como MVP da disciplina de **Engenharia de Dados** da Pós-Graduação em Ciência de Dados e Analytics da PUC-Rio.
+Este projeto foi desenvolvido como MVP da disciplina de Engenharia de Dados da Pós-Graduação em Ciência de Dados e Analytics da PUC-Rio.
 
-O projeto apresenta a construção de um pipeline de dados no **Databricks**, utilizando arquitetura Medalhão (**Bronze → Silver → Gold**), PySpark, Spark SQL e Delta Lake para ingestão, tratamento, transformação, catalogação e análise de dados relacionados a solicitações de empréstimos.
+O projeto apresenta a construção de um pipeline de dados no Databricks, utilizando arquitetura Medalhão (Bronze → Silver → Gold), PySpark, Spark SQL e Delta Lake para ingestão, tratamento, transformação, catalogação e análise de dados relacionados a solicitações de empréstimos.
 
 ---
 
@@ -108,10 +108,6 @@ O projeto apresenta a construção de um pipeline de dados no **Databricks**, ut
 - 5.7 Variáveis Associadas à Aprovação
   - 5.7.1 Resultado da Análise
 - 5.8 Síntese dos Resultados
-
-📓 [05 - Análise dos Resultados](./notebooks/05_analise_resultados.ipynb)
-
----
 
 ### 6. Conclusão
 
